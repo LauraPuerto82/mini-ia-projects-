@@ -16,7 +16,7 @@ Each folder in this repository contains a standalone project with:
 
 | Project Name | Description |
 |--------------|-------------|
-| `real-estate-price-prediction/` | Predict house prices using a neural network. Includes full data preprocessing, model building, evaluation, and architecture optimization. |
+| [real-estate-price-prediction](https://github.com/LauraPuerto82/mini-ia-projects-/tree/master/01.-%20Deep%20Learning%20for%20Real%20Estate%20Price%20Prediction) | Predict house prices using a neural network. Includes full data preprocessing, model building, evaluation, and architecture optimization. |
 
 > More projects coming soon!
 
@@ -28,5 +28,5 @@ I'm Laura Puerto, a software developer upskilling in the field of Artificial Int
 I'm passionate about building intelligent systems, learning step by step, and turning theory into real code.
 
 Feel free to explore, give feedback, or reach out!  
-🌐 [My Portfolio](https://laurapuerto82.github.io/laura-puerto-portfolio/index.html)
+🌐 [My Portfolio](https://laura-puerto-portfolio.vercel.app/)
 
