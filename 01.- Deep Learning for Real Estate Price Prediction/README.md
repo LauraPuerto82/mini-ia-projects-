@@ -77,12 +77,12 @@ To reproduce this notebook locally, follow these steps:
 
 ```bash
 pip install -r requirements.txt
-
+```
 5. Run the notebook
 
 ```bash
 jupyter notebook
-
+```
 
 Make sure the file kc_house_data.csv is located in the data/ folder.
 
