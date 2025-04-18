@@ -98,6 +98,6 @@ Make sure the file kc_house_data.csv is located in the data/ folder.
 
 **Laura Puerto**  
 Software Developer | AI Learner  
-🔗 [My Portfolio](https://laurapuerto82.github.io/laura-puerto-portfolio/index.html)  
-🔗 [Main Mini-Project Repository](https://github.com/LauraPuerto82/mini-ia-projects)
+🔗 [My Portfolio](🔗 [My Portfolio](https://laura-puerto-portfolio.vercel.app/))  
+🔗 [Main Mini-Project Repository](../)
 
