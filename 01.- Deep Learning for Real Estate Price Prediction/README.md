@@ -12,7 +12,7 @@ The original lab has been **carefully reviewed, corrected, and extended** to ens
 
 Key improvements made:
 
-- 🔍 Detected and fixed **data leakage** in the original pipeline.
+- 🔍 Identified and addressed a potential data leakage in the original pipeline.
 - 🧪 Restructured the preprocessing steps to ensure proper model training.
 - 📈 Added new model architectures and optimization strategies.
 - 🧼 Cleaned and documented the notebook to be clear, reproducible, and portfolio-ready.
@@ -43,13 +43,15 @@ Key improvements made:
 
 ## 🧠 Dataset
 
-The dataset contains real estate sales data for King County (Washington, USA), including property attributes such as:
+The dataset contains house sale records from King County (Washington, USA), including a variety of property attributes such as:
 
-- Living area (`sqft_living`)
+- Living area (in square feet)
 - Number of bedrooms and bathrooms
 - Year built and renovation year
-- Zip code and location
-- Lot size and condition
+- Lot size and number of floors
+- Location-related features such as zip code, latitude, and longitude
+- Property condition, view, and waterfront status
+- Basement size, building grade, and other structural attributes
 
 📍 [Kaggle: House Sales in King County](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 
