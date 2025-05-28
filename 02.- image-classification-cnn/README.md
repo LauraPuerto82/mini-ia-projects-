@@ -1,9 +1,9 @@
-# 🧥 Mini-Project: Image Classification with CNNs
+# 🔢 Mini-Project: Handwritten Digit Classification with CNN
 
-This project is part of my AI & Machine Learning specialization roadmap. It focuses on developing and evaluating a Convolutional Neural Network (CNN) to classify grayscale fashion images from the Fashion MNIST dataset.
+This project is part of my AI & Machine Learning specialization roadmap. It focuses on training a Convolutional Neural Network (CNN) to classify grayscale images of handwritten digits from the MNIST dataset.
 
 ## 🧪 Objective
-To train a CNN model from scratch to accurately classify clothing items into 10 predefined categories using Fashion MNIST.
+To build and evaluate a CNN capable of classifying handwritten digits (0–9) from the MNIST dataset with high accuracy.
 
 ## 🧱 Model Architecture
 - Input: 28×28 grayscale images
@@ -11,13 +11,14 @@ To train a CNN model from scratch to accurately classify clothing items into 10 
 - 2× MaxPooling layers
 - 1× Flatten layer
 - 2× Dense layers
-- Output layer with Softmax activation
+- Output layer with 10 neurons and Softmax activation
 
 ## 📌 Key Tasks
-- Data preprocessing and normalization
-- CNN model design using Keras & TensorFlow
-- Training and evaluation with validation set
-- Visualization of performance metrics and prediction examples
+- Data normalization and preprocessing
+- CNN model design using TensorFlow and Keras
+- Model training and evaluation
+- Visualization of accuracy and loss curves
+- Display of prediction results on sample images
 
 ## 🧠 Tools Used
 - Python, NumPy, Matplotlib
@@ -25,19 +26,19 @@ To train a CNN model from scratch to accurately classify clothing items into 10 
 - Jupyter Notebook
 
 ## 📁 Files
-- `image_classification_cnn.ipynb` – Full training pipeline, evaluation, and visualizations
+- `image_classification_cnn.ipynb` – Complete notebook with model code, evaluation, and visualizations
 
 ## 📊 Results
-- Final test accuracy: **88.84 %**
-- Training accuracy: 92.19 %
-- Validation accuracy: 89.03 %
+- Final test accuracy: **98.74 %**
+- Training accuracy: **99.41 %**
+- Validation accuracy: **98.49 %**
 
 ## 🔍 Insights
-- Most confusion occurred between similar categories such as *shirt* and *top*
-- The model generalizes well with no major overfitting
-- Architecture remains simple and effective for Fashion MNIST
+- Excellent performance on clean, centered digits
+- Occasional confusion between similar digits (e.g., 4 vs 9, 3 vs 5)
+- Simple architecture achieves high performance without overfitting
 
 ## 🚀 Next Steps
-- Add dropout layers to reduce overfitting
-- Experiment with more filters or deeper CNNs
-- Try data augmentation or transfer learning on more complex datasets
+- Explore dropout or batch normalization for regularization
+- Try deeper architectures or convolutional blocks
+- Evaluate performance on noisy or shifted digit images
