@@ -17,6 +17,8 @@ Each folder in this repository contains a standalone project with:
 | Project Name | Description |
 |--------------|-------------|
 | [real-estate-price-prediction](https://github.com/LauraPuerto82/mini-ia-projects-/tree/master/01.-%20Deep%20Learning%20for%20Real%20Estate%20Price%20Prediction) | Predict house prices using a neural network. Includes full data preprocessing, model building, evaluation, and architecture optimization. |
+| [digit-classification-cnn](https://github.com/LauraPuerto82/mini-ia-projects-/tree/master/02.-%20image-classification-cnn) | Classify handwritten digits (0–9) using a CNN trained on the MNIST dataset. Includes model training, evaluation, and result visualization. |
+
 
 > More projects coming soon!
 
